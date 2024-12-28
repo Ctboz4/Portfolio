@@ -145,3 +145,19 @@ button:hover {
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow */
 }
+
+#Howitlooks {
+    background-color: #2a2a2a; /* Keep the same background */
+    padding: 60px; /* Increase padding to make it larger */
+    margin-bottom: 30px; /* Add separation from other sections */
+    border-radius: 12px; /* Smooth out the edges */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.5); /* Add a shadow for depth */
+}
+
+.HomeNetwork-photo {
+    width: 550px; /* Adjust width as needed */
+    height: auto;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    float: left;
+}
