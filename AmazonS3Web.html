@@ -10,7 +10,23 @@
     <section>
     <header>I created and deployed a static website using Amazon S3, AWS's cloud storage service, to host HTML content and supporting assets. The project involved setting up an S3 bucket, configuring static website hosting, managing file permissions, and troubleshooting access issues.</header>
 </section>
-    
+<section id="Howitlooks">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <img src="Photos/S31.png" alt="S3 Bucket Setup Screenshot" class="gallery-photo" onclick="openModal(this)">
+        <img src="Photos/S32.png" alt="File Upload Screenshot" class="gallery-photo" onclick="openModal(this)">
+        <img src="Photos/S33.png" alt="Static Hosting Setup Screenshot" class="gallery-photo" onclick="openModal(this)">
+        <img src="Photos/S34.png" alt="Bucket Endpoint Screenshot" class="gallery-photo" onclick="openModal(this)">
+        <img src="Photos/S35.png" alt="Final Website Screenshot" class="gallery-photo" onclick="openModal(this)">
+    </div>
+
+    <!-- Modal for Enlarged Image -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="enlargedImage">
+        <div id="caption"></div>
+    </div>
+</section>
 
     <section id="steps">
         <h2>What I learned</h2>
@@ -75,23 +91,7 @@
             <p>The static website was successfully deployed and accessible via the S3 bucket's endpoint URL. This project strengthened my understanding of AWS services and demonstrated my ability to apply cloud-based solutions effectively.</p>
         </section>
 
-        <section id="Howitlooks">
-            <h2>Gallery</h2>
-            <div class="gallery">
-                <img src="Photos/S31.png" alt="S3 Bucket Setup Screenshot" class="gallery-photo" onclick="openModal(this)">
-                <img src="Photos/S32.png" alt="File Upload Screenshot" class="gallery-photo" onclick="openModal(this)">
-                <img src="Photos/S33.png" alt="Static Hosting Setup Screenshot" class="gallery-photo" onclick="openModal(this)">
-                <img src="Photos/S34.png" alt="Bucket Endpoint Screenshot" class="gallery-photo" onclick="openModal(this)">
-                <img src="Photos/S35.png" alt="Final Website Screenshot" class="gallery-photo" onclick="openModal(this)">
-            </div>
         
-            <!-- Modal for Enlarged Image -->
-            <div id="imageModal" class="modal">
-                <span class="close" onclick="closeModal()">&times;</span>
-                <img class="modal-content" id="enlargedImage">
-                <div id="caption"></div>
-            </div>
-        </section>
 
         <script>
             function openModal(img) {
