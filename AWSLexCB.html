@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Website - Amazon S3</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <section>
+    <header>Developed a fully functional chatbot using Amazon Lex, a conversational AI service that enables natural language understanding (NLU) and automatic speech recognition (ASR). The chatbot was configured to handle user intents, provide responses, and manage fallback scenarios for unrecognized inputs.</header>
+</section>
+<section id="Howitlooks">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <img src="Photos/CB1.png" alt="S3 Bucket Setup Screenshot" class="gallery-photo" onclick="openModal(this)">
+        <img src="Photos/CB2.png" alt="File Upload Screenshot" class="gallery-photo" onclick="openModal(this)">
+        <img src="Photos/CB3.png" alt="Static Hosting Setup Screenshot" class="gallery-photo" onclick="openModal(this)">
+        
+    </div>
+
+    <!-- Modal for Enlarged Image -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="enlargedImage">
+        <div id="caption"></div>
+    </div>
+</section>
+
+    <section id="steps">
+        <h2>What I learned</h2>
+        <ul>
+           <li>Gained hands-on experience with Amazon Lex for building ChatBots</li>
+            <li>Recognized the critical role of fallback intents in ensuring robust and user-friendly chatbot interactions.</li>
+            <li>Gained insight into how variations in responses can improve user engagement and satisfaction.</li>
+           
+        </ul>
+        
+       
+        
+    </section>
+    <section id="steps">
+        <h2>Steps I took</h2>
+                    <h3>Setup and Configuration</h3>
+                    <ul>
+                        <li>Created a chatbot from scratch using Amazon Lex</li>
+                        <li>Adjusted the intent classification confidence score to a default value of 0.40 to ensure response accuracy.</li>
+                    </ul>
+                    <h3>Intent Creation</h3>
+                        <ul>
+                            <li>Developed the "WelcomeIntent" to greet users upon interaction.</li>
+                            <li>ATested and implemented the "FallbackIntent," ensuring the chatbot gracefully handles unrecognized inputs.</li>
+                        </ul>
+                    <h3>Enhancements</h3>
+                    <ul>
+                        <li>Added variations to fallback responses, providing a personalized and human-like interaction for end-users.</li>
+                        <li>Configured closing responses to explain scenarios where user input couldn't be processed effectively.</li>
+                    </ul>
+                    <h3>Troubleshooting</h3>
+                    <ul>
+                        <li>Identified and resolved issues with fallback responses during testing.</li>
+                    </ul>
+                    
+                </li>
+                          
+        </section>
+
+
+        
+
+
+        <section id="steps">
+            <h2>What I Learned</h2>
+            <ul>
+                <li> Recognized the critical role of fallback intents in ensuring robust and user-friendly chatbot interactions.</li>
+                <li>Gained insight into how variations in responses can improve user engagement and satisfaction.</li>
+                </ul>
+        </section>
+
+        <section id="steps">
+            <h2>Outcome</h2>
+            <p>Successfully deployed a functional chatbot. This project strengthened my understanding of AWS services.</p>
+        </section>
+
+        
+
+        <script>
+            function openModal(img) {
+                const modal = document.getElementById('imageModal');
+                const modalImg = document.getElementById('enlargedImage');
+        
+                modal.style.display = 'flex'; // Use flex to center the image
+                modalImg.src = img.src; // Set the clicked image as the modal content
+            }
+        
+            function closeModal() {
+                const modal = document.getElementById('imageModal');
+                modal.style.display = 'none'; // Hide the modal
+            }
+        </script>
+        
+        
+        
+        
+        
+        
+       
+        
+    </section>

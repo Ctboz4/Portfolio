@@ -238,3 +238,26 @@ button:hover {
     color: #bbbbbb;
     text-decoration: none;
 }
+
+/* Projects Section */
+#projects h2 {
+    color: #ffffff; /* White text for the heading */
+}
+
+#projects p {
+    color: #b0b0b0; /* Light grey for the description */
+}
+
+/* Links Styling */
+#projects a {
+    color: #b0b0b0; /* Bright teal for links */
+    font-size: 1.2em; /* Slightly larger font for visibility */
+    text-decoration: none;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+#projects a:hover {
+    color: #ffffff; /* White on hover */
+    text-shadow: 0 0 10px #00bcd4; /* Glow effect */
+    text-decoration: underline;
+}
